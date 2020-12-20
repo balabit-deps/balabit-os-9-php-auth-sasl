@@ -1,0 +1,64 @@
+php-auth-sasl (1.1.0-1) unstable; urgency=low
+
+  * New upstream version 1.1.0
+  * Add self to Uploaders.
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Update watch file format version to 4.
+  * Use secure URI in Homepage field.
+  * Bump debhelper from deprecated 9 to 13.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers to use salsa repository.
+  * Set Rules-Requires-Root: no.
+  * Bump Standards-Version to 4.5.1 from ancient 3.9.7.
+  * Set debian-branch=debian/latest in d/gbp.conf.
+  * Use secure URIs in debian/watch.
+  * Add d/salsa-ci.yml file for GitLab CI.
+  * Update package Description to include SCRAM.
+
+ -- Guilhem Moulin <guilhem@debian.org>  Sun, 20 Dec 2020 13:20:20 +0100
+
+php-auth-sasl (1.0.6-3) unstable; urgency=medium
+
+  * Bump Standards-Version to 3.9.7
+  * Use https in Vcs-* fields
+  * Add dependency on php-pear
+  * Rebuild with pkg-php-tools 1.32 for the PHP 7.0 transition
+
+ -- Prach Pongpanich <prach@debian.org>  Sun, 13 Mar 2016 22:55:44 +0700
+
+php-auth-sasl (1.0.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * Rebuild with pkg-php-tools 1.28 (Closes: #793948)
+  * Bump Standards-Version to 3.9.6
+
+ -- Mathieu Parent <sathieu@debian.org>  Thu, 17 Sep 2015 02:36:22 +0200
+
+php-auth-sasl (1.0.6-1) unstable; urgency=low
+
+  * New upstream Release
+  * Maintain the package inside the PHP PEAR team
+  * Switch to pkg-php-tools and dh-sequencer
+  * Change section to php
+  * Add myself as uploader
+  * Convert copyright to format 1.0
+  * Switch to dpkg-source 3.0 (quilt) format
+  * Bump debhelper compat to 9
+  * Bump Standards-Version to 3.9.4
+
+ -- Prach Pongpanich <prachpub@gmail.com>  Thu, 18 Jul 2013 20:48:47 +0700
+
+php-auth-sasl (1.0.4-1) unstable; urgency=low
+
+  * New upstream Release.
+
+ -- Benoit Mortier <benoit.mortier@opensides.be>  Mon, 22 Mar 2010 23:55:05 +0100
+
+php-auth-sasl (1.0.3-1) unstable; urgency=low
+
+  * Initial Release (Closes: #555976).
+
+ -- Benoit Mortier <benoit.mortier@opensides.be>  Fri, 13 Nov 2009 00:53:42 +0100
